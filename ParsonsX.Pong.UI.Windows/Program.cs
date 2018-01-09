@@ -14,8 +14,8 @@ namespace ParsonsX.Pong.UI.Windows
         [STAThread]
         static void Main()
         {
-            using (var game = new Game1())
-                game.Run();
+            using (var pongGame = new PongGame())
+                pongGame.Run();
         }
     }
 #endif
